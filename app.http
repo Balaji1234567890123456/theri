@@ -1,0 +1,9 @@
+PUT http://localhost:3000/todos/:3/
+Content-Type:application/json
+
+{   "todo":"LEARN CSS", 
+     "priority":"HIGH",
+     "status":""
+    
+}
+GET http://localhost:3000/todos/3/
